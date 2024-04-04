@@ -12,7 +12,7 @@ const LastCapturedPokemons = ({pokemons})=>{
     
     return(
         
-        <section>
+        <section id="last-pokemon">
             <h2>Last Pokemons captured</h2>
             {lastCapturedPokemons.map((pokemon)=>{
                 return <PokemonCard pokemon = {pokemon} />

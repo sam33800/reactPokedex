@@ -16,7 +16,7 @@ const RandomPokemon = ({pokemons})=>{
     
     return(
         
-       <section>
+       <section id="random-pokemon">
         <h2>Random Pokemon</h2>
         <PokemonCard pokemon = {randomPokemon} />
 

@@ -1,7 +1,7 @@
 const Footer =()=>{
     return(
         <footer>
-            <p>Pokemon Company&copy;</p>
+            <p>Pokemon Company <div className="copy">&copy;</div></p>
         </footer>
     )
 }

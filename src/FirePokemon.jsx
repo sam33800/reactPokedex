@@ -8,7 +8,7 @@ const FirePokemon=({pokemons})=>{
     })  
     
     return(
-        <section>
+        <section id="fire-pokemon">
         <h2>Fire type Pokemons</h2>
         {filteredPok.map((pokemon)=>{
             return <PokemonCard pokemon = {pokemon} />

@@ -85,9 +85,12 @@ function App() {
   return (
     <>
      <Header />
-     <LastCapturedPokemons pokemons ={pokedex} />
+     <container>
+      <LastCapturedPokemons pokemons ={pokedex} />
      <RandomPokemon pokemons ={pokedex}/>
      <FirePokemon pokemons ={pokedex}/>
+     </container>
+     
      <Footer />
     </>
   );
