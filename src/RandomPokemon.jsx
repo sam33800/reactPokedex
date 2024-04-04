@@ -9,7 +9,7 @@ const RandomPokemon = ({pokemons})=>{
         
     // })
 
-    const randomPokemon = pokemons[Math.round(Math.random()*9)]
+    const randomPokemon = pokemons[Math.round(Math.random() *( pokemons.length -1))]
 
 
 

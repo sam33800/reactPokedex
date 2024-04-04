@@ -9,6 +9,10 @@
   font-family: "pokemon-font";
 }
 
+h2{
+  text-transform: uppercase;
+}
+
 header a{
   color: #FCD002;
   font-size: 15px;
@@ -99,7 +103,7 @@ section{
 
 article{
   width: 600px;
-  border: 3px solid black;
+  border: 4px solid black;
 }
 
 .img-card{
@@ -122,4 +126,24 @@ footer{
 .copy{
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
+}
+
+.Fire{
+  color: #E72324;
+  font-weight: 600;
+}
+
+.Water{
+  color: #2481EF;
+  font-weight: 600;
+}
+
+.Bug{
+  color: #92A212;
+  font-weight: 600;
+}
+
+.Grass{
+  color: #40A225;
+  font-weight: 600;
 }

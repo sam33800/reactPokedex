@@ -4,6 +4,7 @@ import Footer from './Footer';
 import LastCapturedPokemons from './LastCapturedPokemons';
 import RandomPokemon from './RandomPokemon';
 import FirePokemon from './FirePokemon';
+import ListAllPokemons from './ListAllPokemons';
 
 function App() {
 
@@ -89,6 +90,7 @@ function App() {
       <LastCapturedPokemons pokemons ={pokedex} />
      <RandomPokemon pokemons ={pokedex}/>
      <FirePokemon pokemons ={pokedex}/>
+     <ListAllPokemons pokemons ={pokedex}/>
      </container>
      
      <Footer />
