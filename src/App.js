@@ -88,8 +88,8 @@ function App() {
      <Header />
      <container>
       <LastCapturedPokemons pokemons ={pokedex} />
-     <RandomPokemon pokemons ={pokedex}/>
-     <FirePokemon pokemons ={pokedex}/>
+     <RandomPokemon pokemons ={pokedex} />
+     <FirePokemon pokemons ={pokedex} />
      <ListAllPokemons pokemons ={pokedex}/>
      </container>
      

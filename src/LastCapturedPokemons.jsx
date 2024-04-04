@@ -1,6 +1,6 @@
 import PokemonCard from "./PokemonCard"
 
-const LastCapturedPokemons = ({pokemons})=>{
+const LastCapturedPokemons = ({pokemons, displayImage})=>{
     
     
 
@@ -15,7 +15,7 @@ const LastCapturedPokemons = ({pokemons})=>{
         <section id="last-pokemon">
             <h2>Last Pokemons captured</h2>
             {lastCapturedPokemons.map((pokemon)=>{
-                return <PokemonCard pokemon = {pokemon} />
+                return <PokemonCard pokemon = {pokemon} displayImage={true} />
             })}
         </section>
 
